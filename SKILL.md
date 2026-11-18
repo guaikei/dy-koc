@@ -6,6 +6,11 @@ name: dy-koc
 description: 抖音达人筛选数据源（只读）：关键词搜索、博主作品、作品详情、评论、热榜。触发：抖音搜索、热搜、评论、需求挖掘、痛点、作品详情、博主作品、对标账号、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin hot、douyin detail、douyin comments。
 license: MIT
 version: 1.5.0
+display_name: "抖音达人筛选｜博主查找·粉丝画像·作品数据·互动率"
+display_name_en: "Douyin KOC Finder"
+description_zh: "抖音达人筛选数据源（只读）：关键词搜索视频与图文、用户/达人搜索、博主作品与粉丝数据、单条作品详情、视频图文评论舆情、实时热榜，并支持按剧本做需求挖掘与公域获客（search→comment）；支持综合/最多点赞/最新排序与时间、时长、内容类型（视频/图文）多维筛选，全部以结构化 JSON 输出供 AI 直接评估达人。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月视频搜索/用户搜索/作品最多 30、评论最多 50（详情与热榜无条数限制），超限返回 PLAN_LIMIT（退出码 1）可降 limit 或升级套餐，须用户同意后再跑。适用于达人筛选、粉丝画像、KOL/KOC 真实互动率评估、对标账号查找与竞品截流。"
+description_en: "Read-only Douyin KOC/creator-sourcing data source: keyword search across videos and image-text posts, user/creator search, benchmark-account video lists and follower insights, per-post details, comment sentiment mining, real-time hot lists, plus scripted demand mining and public-domain lead gen (search→comment). Supports comprehensive/most-liked/latest sorting plus time-window, duration, and content-type filters; all results are structured JSON ready for direct creator evaluation. No login, publishing, liking, commenting, or following. Pay-per-use runs cap at 10,000 items; monthly plans cap video search/user search/creator-videos at 30 and comments at 50 (details and hot lists unlimited), returning PLAN_LIMIT (exit code 1) on breach — lower --limit or upgrade with user consent before retrying. Ideal for KOC/creator sourcing, follower profiling, KOL engagement-rate vetting, benchmark-account lookup, and competitor interception."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎬"
